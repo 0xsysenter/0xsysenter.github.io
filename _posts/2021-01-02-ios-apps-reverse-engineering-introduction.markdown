@@ -57,11 +57,11 @@ From Karen's repo:
 
 From Iphonecake:
 
--`CrackerXI+`
+-`CrackerXI+` (to dump and fakesign iOS apps installed from the appstore)
 
 From Frida:
 
--`Frida`
+-`Frida` (to perform dynamic instrumentation of iOS apps)
 
 # You are ready to go
 
