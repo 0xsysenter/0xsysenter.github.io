@@ -2,7 +2,7 @@
 layout: post
 title:  "iOS apps reverse engineering - Introduction"
 date:   2021-01-02 14:46:52 -0500
-categories: jekyll update
+categories: ios reversing arm64 mobile ipa frida instrumentation
 ---
 This first blog entry will go through the tools you will need to reverse engineer iOS applications. Since this is not the first time this topic has been covered, and there are counteless
 blog posts about how to do this with Mac OS, I will show you how to do reverse engineering without the need for Mac OS. 
