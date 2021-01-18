@@ -373,7 +373,7 @@ At this point, all we have to do is to patch the code that sets the label as hid
     Written 4 byte(s) (nop) = wx 1f2003d5
     [0x100004420]> 
 
-Once our binary is patched, we can put it in place of the fat binary and rebuild the ipa file by just zipping the Payload directory again and installing
+Once our binary is patched, we can put it in place of the fat binary and rebuild the ipa file by just zipping the Payload directory and installing
 it again with ideviceinstaller:
 
 `ideviceinstaller -i cracked_level_1.ipa`
