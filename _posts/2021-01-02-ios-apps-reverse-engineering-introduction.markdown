@@ -23,17 +23,17 @@ Keep in mind that while Checkra1n is an unpatchable bug in the bootrom, the jail
 
 Assuming you have jailbroken your device, you will need the following software:
 
--Any linux distro installed on your host or in a VM (I recommend Debian-based distros if you want to install software via aptitude)
+- Any linux distro installed on your host or in a VM (I recommend Debian-based distros if you want to install software via aptitude)
 
--ideviceinstaller: A tool to install iOS apps (.ipa files) on your device from your computer. It can be installed with the following command:
+- ideviceinstaller: A tool to install iOS apps (.ipa files) on your device from your computer. It can be installed with the following command:
 
 `sudo apt install ideviceinstaller`
 
--[Optional, but highly recommended] iProxy: SSH to your device via USB cable without the need for wifi. You can install it with the following command:
+- [Optional, but highly recommended] iProxy: SSH to your device via USB cable without the need for wifi. You can install it with the following command:
 
 `sudo apt install libusbmuxd-tools`
 
--Your reverse engineering tool of choice (e.g. IDA, Binary Ninja, Hopper, Ghidra, radare2, etc.):
+- Your reverse engineering tool of choice (e.g. IDA, Binary Ninja, Hopper, Ghidra, radare2, etc.):
 
 I recommend to pick either ghidra or radare2 (with cutter if you want a GUI for radare2) since they are both available for free.
 
@@ -41,27 +41,27 @@ I recommend to pick either ghidra or radare2 (with cutter if you want a GUI for 
 
 Add the following repositories to Cydia:
 
--Iphonecake: `http://cydia.iphonecake.com/`
+- Iphonecake: `http://cydia.iphonecake.com/`
 
--Karen's repo: `https://cydia.akemi.ai/`
+- Karen's repo: `https://cydia.akemi.ai/`
 
--Frida: `https://build.frida.re`
+- Frida: `https://build.frida.re`
 
 Install the following packages:
 
 From Karen's repo:
 
--`AppSync Unified` (to install unsigned, fakesigned, or ad-hoc signed IPA packages on iOS)
+- `AppSync Unified` (to install unsigned, fakesigned, or ad-hoc signed IPA packages on iOS)
 
--`appinst` (to install an iOS app directly from the command line)
+- `appinst` (to install an iOS app directly from the command line)
 
 From Iphonecake:
 
--`CrackerXI+` (to dump and fakesign iOS apps installed from the appstore)
+- `CrackerXI+` (to dump and fakesign iOS apps installed from the appstore)
 
 From Frida:
 
--`Frida` (to perform dynamic instrumentation of iOS apps)
+- `Frida` (to perform dynamic instrumentation of iOS apps)
 
 # You are ready to go
 
