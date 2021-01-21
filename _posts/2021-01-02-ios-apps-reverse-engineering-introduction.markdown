@@ -25,13 +25,13 @@ Assuming you have jailbroken your device, you will need the following software:
 
 - Any linux distro installed on your host or in a VM (I recommend Debian-based distros if you want to install software via aptitude)
 
-- ideviceinstaller: A tool to install iOS apps (.ipa files) on your device from your computer. It can be installed with the following command:
+- `ideviceinstaller`: A tool to install iOS apps (.ipa files) on your device from your computer. It can be installed with the following command:
 
-`sudo apt install ideviceinstaller`
+`sudo apt install libimobiledevice* ideviceinstaller`
 
-- [Optional, but highly recommended] iProxy: SSH to your device via USB cable without the need for wifi. You can install it with the following command:
+- `iProxy`: SSH to your device via USB cable without the need for wifi. You can install it with the following command:
 
-`sudo apt install libusbmuxd-tools`
+`sudo apt install usbmuxd libusbmuxd-tools`
 
 - Your reverse engineering tool of choice (e.g. IDA, Binary Ninja, Hopper, Ghidra, radare2, etc.):
 
@@ -55,9 +55,9 @@ From Karen's repo:
 
 - `appinst` (to install an iOS app directly from the command line)
 
-From Iphonecake:
+[Optional] From Iphonecake:
 
-- `CrackerXI+` (to dump and fakesign iOS apps installed from the appstore)
+- `CrackerXI+` (user-friendly app to dump and fakesign iOS apps installed from the appstore)
 
 From Frida:
 
