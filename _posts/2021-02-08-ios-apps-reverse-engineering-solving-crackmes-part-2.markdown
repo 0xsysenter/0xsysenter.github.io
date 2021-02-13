@@ -22,15 +22,15 @@ In this blog post I will show you how to solve `Level_02`.
 # Step 2 - Install the iOS app on your device
 
 If you follwed [this](/ios/reversing/arm64/mobile/ipa/frida/instrumentation/2021/01/02/ios-apps-reverse-engineering-introduction.html) blog post,
-you should already have everything you need to install iOS apps. If you installed all the tools, you will have two options to install the app `UnCrackable_Level2.ipa`:
+you should already have everything you need to install iOS apps. If you installed all the tools, you will have two options to install the app `UnCrackable_Level_2.ipa`:
 
 - You can use ideviceinstaller from you computer:
     - Connect USB cable and run `ideviceinstaller -i UnCrackable_Level_2.ipa`
 
 
 - Or transfer the file via SCP and install it directly from your device: 
-    - To Transfer your application, run: `scp UnCrackable_Level2.ipa root@<deviceip>:~/`
-    - To install it, run: `ssh root@<deviceip> appinst UnCrackable_Level2.ipa`
+    - To Transfer your application, run: `scp UnCrackable_Level_2.ipa root@<deviceip>:~/`
+    - To install it, run: `ssh root@<deviceip> appinst UnCrackable_Level_2.ipa`
 
 # Step 3 - Run the application on your device
 
@@ -41,7 +41,7 @@ figure out why (no, the app is not broken), and we'll use our reversing skills t
 
 As you may already know, .ipa files are regular zip archives which can be extracted with the command below:
 
-`unzip UnCrackable_Level2.ipa`
+`unzip UnCrackable_Level_2.ipa`
 
 Once the archive has been decompressed, the first thing to do it to check what kind of executable we have with the file utility:
 
